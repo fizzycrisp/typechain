@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/fizzycrisp/typechain.git",
   "author": "fizzycrisp <fizzycrisp@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
 }
